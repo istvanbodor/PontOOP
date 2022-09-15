@@ -32,7 +32,15 @@ public class Pont {
 
 
     }
+    public double ketPontTav(Pont a)
+    {
+        int x = this.x - a.x;
+        int y = this.y - a.y;
 
+        return  Math.sqrt(Math.pow(x,2) + Math.pow(y,2));
+
+
+    }
 
 
     @Override

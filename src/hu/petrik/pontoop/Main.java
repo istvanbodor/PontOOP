@@ -34,6 +34,11 @@ public class Main {
         }
         System.out.printf("A legtávolabbeső pont az origotól a(z) %d. pont, koordinátái: %s, origotól mért távolsága: %.3f"
                 ,(legtavolabbesoIndex +1), pontok[legtavolabbesoIndex], pontok[legtavolabbesoIndex].getOrigotolMertTavolsag());
+
+        System.out.println();
+        System.out.println(p1.ketPontTav(p3));
+
+
     }
 
 
