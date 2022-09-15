@@ -16,6 +16,17 @@ public class Main {
         System.out.println(p3);
         System.out.println(p4);
 
+
+        Pont[] pontok = new Pont[10];
+        for (int i = 0; i < pontok.length; i++) {
+            pontok[i] = new Pont(100);
+        }
+        for (Pont p: pontok)
+        {
+            System.out.println(p);
+
+        }
+
     }
 
 
