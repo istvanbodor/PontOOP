@@ -39,8 +39,26 @@ public class Pont {
 
         return  Math.sqrt(Math.pow(x,2) + Math.pow(y,2));
 
+    }
+    public int hovaEsik()
+    {
+        if (this.x <0&&this.y>0) {
+            return 1;
+        }
+        else if (this.x <0&&this.y<0) {
+            return 2;
+        }
+        else if (this.x > 0&&this.y>0) {
+            return 4;
+        }
+        else  {
+            return 3;
+        }
+
 
     }
+
+
 
 
     @Override

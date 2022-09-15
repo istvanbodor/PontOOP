@@ -37,6 +37,7 @@ public class Main {
 
         System.out.println();
         System.out.println(p1.ketPontTav(p3));
+        System.out.println(p3.hovaEsik());
 
 
     }
