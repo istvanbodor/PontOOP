@@ -14,6 +14,18 @@ public class Pont {
         this.y = y;
 
     }
+    public Pont (int n) {
+        this.x = koordianataGeneralasa(n);
+        this.y =koordianataGeneralasa(n);
+
+
+
+    }
+
+    private int koordianataGeneralasa(int n) {
+        return (int)(Math.random() *((2*n)+1) ) -n;
+    }
+
 
     @Override
     public String toString() {
