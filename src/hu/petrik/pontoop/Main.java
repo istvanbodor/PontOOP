@@ -26,7 +26,14 @@ public class Main {
             System.out.println(p);
 
         }
-
+        int legtavolabbesoIndex =0;
+        for (int i = 1; i < pontok.length ; i++) {
+            if (pontok[legtavolabbesoIndex].getOrigotolMertTavolsag()<pontok[i].getOrigotolMertTavolsag()){
+                legtavolabbesoIndex = i;
+            }
+        }
+        System.out.printf("A legtávolabbeső pont az origotól a(z) %d. pont, koordinátái: %s, origotól mért távolsága: %.3f"
+                ,(legtavolabbesoIndex +1), pontok[legtavolabbesoIndex], pontok[legtavolabbesoIndex].getOrigotolMertTavolsag());
     }
 
 
