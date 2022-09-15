@@ -26,6 +26,14 @@ public class Pont {
         return (int)(Math.random() *((2*n)+1) ) -n;
     }
 
+    public double getOrigotolMertTavolsag(){
+
+        return  Math.sqrt(Math.pow(this.x,2) + Math.pow(this.y,2));
+
+
+    }
+
+
 
     @Override
     public String toString() {
